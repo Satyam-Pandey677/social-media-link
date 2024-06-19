@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'quicksand';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.display{
+    height: 100%;
+    width: 100%;
+    background: #2d2a32;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: grid;
+   box-sizing: border-box;
+    height: 550px;
+    width:350px;
+    background: #3B3A3D;
+    border-radius: 15px;
+    box-shadow: 2px 2px 25px rgb(59, 59, 59);
+}
+
+.details{
+    display: grid;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    
+}
+
+img{
+    margin: 50px 100px  0;
+    height:100px;
+    margin-top: 15px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+h1{
+    display: flex;
+    justify-self: center;
+    margin-top: 5px;
+    color: aliceblue;
+
+}
+
+.city{
+    display: flex;
+    justify-self: center;
+    margin-top: 5px;
+    font-weight: 500;
+    color: rgb(213, 250, 117);
+}
+
+.info{
+    display: flex;
+    justify-self: center;
+    font-weight: 500;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.social-links{
+   
+    display: grid;
+    justify-content: center;
+    margin-bottom: 25px;
+    gap: 7px;
+}
+button{
+    height: 40px;
+    width:280px;
+    background: #878787;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    
+}
+
+button:hover{
+    background:rgb(213, 250, 117);
+    color: #000;
+
+}
